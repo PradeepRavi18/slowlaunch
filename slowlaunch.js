@@ -10,6 +10,7 @@ const server = http.createServer((request, response) => {
  }
 
  response.writeHead(200, { "Content-Type": "text/plain" });
+ console.log('displaying hello message');
  response.end("Hello 3002 :) !!");
 });
 
